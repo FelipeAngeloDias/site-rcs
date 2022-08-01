@@ -1,0 +1,52 @@
+/*Padronizando as margens da página do site*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*DIV Editor do cabeçalho*/
+.cab{
+    height: 5rem;  
+    display: flex;   
+}
+/*Logo da empresa no cabeçalho*/
+#cablogo{ 
+    width: auto;
+    position: relative;
+    left: 10rem;
+    bottom: 0.5rem;  
+}
+/*Editor da tag nav*/
+.cab nav{   
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Editor da tag ul*/
+.cab ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 37px;
+}
+/*Editor da tag li*/
+.cab li{
+    list-style-type: none;    
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+}
+.cab a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.425) ;
+}
+.cab a:hover{
+    color: black;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+
+.fotosprinc img{
+    width: 100%;
+    height: 646px;
+}
