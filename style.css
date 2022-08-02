@@ -46,7 +46,177 @@
 
 /*----------------------------------------------------------------------------------------------------*/
 
-.fotosprinc img{
-    width: 100%;
-    height: 646px;
+.containerproje{
+    position: relative;
 }
+.containerproje .slide-container .slide{
+    min-height: 76.7vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 9%;
+    padding-bottom: 70px;
+}
+.containerproje .slide-container .slide .contentproje{
+    flex: 1 1 350px;
+    animation: slideContent .4s linear .4s backwards;
+}
+@keyframes slideContent{0%{
+    opacity: 0;
+    transform: translateX(-50px);
+}
+
+}
+.containerproje .slide-container .slide .contentproje h3{
+    font-size: 50px;
+    color: rgb(175, 175, 175);
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 1px 2px black;
+}
+.containerproje .slide-container .slide .contentproje p{
+    font-size: 16px;
+    color: #ffffff;
+    height: 10%;
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+}
+.containerproje .slide-container .slide .contentproje .btnproj{
+    margin-top: 10px;
+    display: inline-block;
+    background-color: gray;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 9px 40px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5)
+
+}
+.containerproje .slide-container .slide .contentproje .btnproj:hover{
+    background-color: rgba(128, 128, 128, 0.825);
+    border: 2px solid rgba(128, 128, 128, 0.825);
+}
+.containerproje .slide-container {
+    display: none;
+    width: 100%;
+}
+.containerproje .slide-container.active{
+    display: block;   
+}
+.containerproje .slide-container:nth-child(1) .slide{
+    background-image: url(img/princ1.jpeg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5)
+}
+.containerproje .slide-container:nth-child(2) .slide{
+    background-image: url(img/obra.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5)
+}
+.containerproje .slide-container:nth-child(3) .slide{
+    background-image: url(img/Embarcação.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5)
+    
+}
+
+.containerproje #prev,
+.containerproje #next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ffffff; ;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5)
+}
+
+.containerproje #prev img{
+    position: absolute;
+    transform: translate(-50%) rotate(180deg);
+    height: 50px;
+    width: 50px;
+    cursor: pointer; 
+    
+}
+.containerproje #next img{
+    position: absolute;
+    transform: translateX(-50%);
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.containerproje #prev:hover,
+.containerproje #next:hover{
+    background: rgb(235, 235, 235);
+}
+
+.containerproje #prev{
+    left: 15px;
+}
+.containerproje #next{
+    right: 15px;
+}
+.borda-header{
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    transform: scaleX(-1);
+}
+.borda-header svg{
+    width: calc(100% + 1.3px);
+    margin-top: -219px;
+    position: relative;
+    fill: #ffffff;
+}
+.servicos{
+    display: flex;
+    border: 1px solid red; 
+}
+.servicos .quadro-one{
+    width: 250px;
+    height: 280px;
+    border-radius: 5px 15px 5px 15px;
+    background-color: rgba(128, 128, 128, 0.5);
+    margin-top: 75px;
+    margin-bottom: 75px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.035); 
+    border: 1px solid red;    
+}
+.servicos .quadro-one .logoserv{
+    margin:auto;
+    margin-top: 10%;
+    background-color: transparent;
+}
+.servicos .quadro-one .logoserv img{
+    width: 70%;
+    height: auto;
+    margin-left: 25px;
+    text-align: center;  
+}
+.servicos .quadro-one .logoserv h4{
+    width: 70%;
+    margin-top: 10%;
+    height: auto;
+    margin-left: 25px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: 2px 1px 2px black;
+}   
