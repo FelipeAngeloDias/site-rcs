@@ -287,16 +287,19 @@
     text-align:justify;
     border-radius: 5px 35px;
     margin: 10px 50px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3);
 }
 .somos p{
     font-family: 'Poppins', sans-serif;
     
 }
 .trabalheconosco{
-   background-image: url(img/Embarcação.jpg); 
-    
+   background-image: url(img/email.jpg);
+   background-size: 100%;
+   box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3);
    height: auto;
    text-align: center;
+   color: #ffffff;
 }
 .trabalheconosco h1{
     font-family: 'Poppins', sans-serif;
@@ -315,6 +318,13 @@
     font-family: 'Poppins', sans-serif;
  }
 
+.contato{
+    display: flex;
+}
+#mapa {
+    height:400px;
+    width:400px;
+  }
 footer{
     background-color: gray;
     text-align: center;
