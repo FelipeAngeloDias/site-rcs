@@ -186,6 +186,26 @@
     fill: #eeeeee;
     box-shadow: 5px 5px 5px 0 hsla(0, 0%, 0%, 0.199); 
 }
+.cabserv{
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.cabserv h3{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 45px;
+    text-align: center;
+}
+.cabserv p{
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 12px;
+}
 .servicos{
     display: flex;
     align-items:center;
@@ -266,6 +286,42 @@
     background-color: rgba(128, 128, 128, 0.825);
     cursor: pointer; 
 }
+.cli{
+    background-color:#f8f8f8;
+
+}
+.clientes{
+    margin-top: 15px;
+   
+    
+}
+.clientes h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #eeeeee;
+    color: gray;
+    position: relative;
+    top: 15px;
+    font-size: 30px;
+}
+.clientes p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #eeeeee;
+    color: gray;
+    position: relative;
+    font-size: 13px;
+    top: 35px;
+    font-weight: 300;
+}
+.cli-fotos{
+    display: flex;
+}
+.cli-fotos img{
+    width: 117px;
+    height: 60px;
+    margin-top: 50px;
+}
 #quemsomos{
     background-color: rgb(248, 248, 248);
     box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3);
@@ -317,14 +373,43 @@
     font-size: 25px;     
     font-family: 'Poppins', sans-serif;
  }
-
-.contato{
-    display: flex;
+ .trabalheconosco .tab button{
+    font-size: 25px;     
+    font-family: 'Poppins', sans-serif;
+ }
+ .cont{
+    
+    background-color:#f8f8f8;
+    height: 380px;
 }
-#mapa {
-    height:400px;
-    width:400px;
-  }
+.cont h3{
+    text-align: center;
+    position: relative;
+    top: 75px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    font-weight: 300;
+}
+.cont img{
+    position: relative;
+    left: 29%; 
+    opacity: 5%;
+    bottom: 100px;
+
+}
+.cont p{
+    position: relative;
+    bottom: 380px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.maps{
+ width: 98.7vmax;
+ box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3); 
+}
+.maps #mapa{ 
+    height: 350px;   
+   }
 footer{
     background-color: gray;
     text-align: center;
