@@ -562,6 +562,33 @@
     background-color: #E6E6E6;
     font-family: 'Poppins', sans-serif;
     height: 272px;  
-    display: flex;
+    display: block;
 }
+.container-rodape{
+    
+}
+.container-rodape .social img{
+    width: 30px;
+    padding: 0 8px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.container-rodape .tel-contato{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.container-rodape .tel-contato p{
+    font-size: 22px;
+    margin-top: 15px;
 
+}
+.container-postal{
+    display: flex;   
+    padding: 0 15px;
+    margin-top: 35px;
+}
+.container-postal .postal2 p,
+.container-postal .postal2 h4{
+    margin-left: 85px;
+   
+}
