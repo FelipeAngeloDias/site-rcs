@@ -517,12 +517,14 @@ section .trab-img img{
     border-radius: 25px;
     width: 100px;
     height: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
  }
- .trabalheconosco .tab button{
+ .trabalheconosco .tab button:hover{
     cursor: pointer;
+    opacity: 0.9;
 }
-.cont{    
+.cont{   
+   
     background-color:#f8f8f8;
     height: 400px;
     display: block;
