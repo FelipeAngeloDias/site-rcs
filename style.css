@@ -3,57 +3,42 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
 }
-/*DIV Editor do cabeçalho*/
-.cab{
-    height: 5rem;  
-    display: flex;   
-}
-/*Logo da empresa no cabeçalho*/
-#cablogo{ 
+header{
     width: auto;
-    position: relative;
-    left: 6rem;
-    height: 90px;      
-}
-/*Editor da tag nav*/
-.cab nav{   
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    background-color: #f8f8f8;
+    padding: 0 20px;
 }
-/*Editor da tag ul*/
-.cab ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 37px;
+.min{
+    height: 100px;
 }
-/*Editor da tag li*/
-.cab li{
-    list-style-type: none;    
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: #7f7f7f;
+    margin: auto 10px;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.1rem;
+}
+ul li a:hover{
+    color: black;
+    cursor: pointer;
 }
 #area{
-    background-color: #e8e8e8;
-    width: 140px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 15px;
-    position: relative;   
-    left: 10    0px;
+    background-color: #000000;
+    border-radius: 25px;
 }
-.cab a{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.425) ;
+#area a{
+    color: #ffffff;
 }
-.cab a:hover{
-    color: black;
+#cablogo{
+    width: 280px;
 }
-
 /*----------------------------------------------------------------------------------------------------*/
 
 .containerproje{
@@ -71,7 +56,7 @@
 }
 .containerproje .slide-container .slide .contentproje{
     flex: 1 1 350px;
-    animation: slideContent .4s linear .4s backwards;
+    animation: slideContent .4s linear .8s backwards;
 }
 @keyframes slideContent{0%{
     opacity: 0;
@@ -119,7 +104,8 @@
     display: block;   
 }
 .containerproje .slide-container:nth-child(1) .slide{
-    background-image: url(img/princ1.jpeg);
+    background-image: url(img/princ.png);
+    background-size: cover;
     background-repeat: no-repeat;
     width: auto;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5)
@@ -502,6 +488,7 @@ section .trab-img img{
 }
 .trabalheconosco{
    background-image: url(img/email.jpg);
+   position: relative;
    background-size: 100%;
    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.3);
    height: auto;
@@ -532,9 +519,15 @@ section .trab-img img{
     height: 50px;
     margin-bottom: 15px;
  }
+ .trabalheconosco .tab button{
+    cursor: pointer;
+}
 .cont{    
     background-color:#f8f8f8;
-    height: 380px;
+    height: 400px;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 .cont h3{
     text-align: center;
@@ -545,10 +538,12 @@ section .trab-img img{
     font-weight: 300;
 }
 .cont img{
+    width: 500px;
+    height: 500px;
     position: relative;
     left: 29%; 
     opacity: 5%;
-    bottom: 100px;
+    bottom: 75px;
 }
 .cont p{
     position: relative;
@@ -638,4 +633,38 @@ color: #eeeeee;
     font-size: 14px;
     text-align: center;
     color: #e8e8e8;
+}
+/*------------------Inicio da página SUCESSOS-------------------------------*/
+
+.obg h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+}
+.obg p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17.8px;
+}
+.obg{
+    padding: 105px;
+}
+.voltar{
+    position: relative;
+    bottom: 50px;
+    margin-left: 105px;
+}
+.voltar button{
+    border-radius: 55px;
+    width: 125px;
+    height: 55px;
+    border: none;
+    background-color: #7f7f7f;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.voltar button:hover{
+    cursor: pointer;
+    background-color: #0000003b;
+    color: #000000;
+    font-weight: bold;
 }

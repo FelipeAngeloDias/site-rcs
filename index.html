@@ -18,11 +18,12 @@
 
 <body>
         
-    <header>           <!--Inicio da parte do cabeçalho do site-->       
-        <div class="cab"> 
-          <a href="#index.html"><img id="cablogo" src="img/rcs.png.jpg" alt="logo da empresa RCS Subaquática" ></a>  <!--Logo no cabeçalho-->     
-        
-            <nav>
+    <header class="min">           <!--Inicio da parte do cabeçalho do site-->       
+        <div class="logo"> 
+          <a href="#index.html"><img id="cablogo" src="img/rcs.png" alt="logo da empresa RCS Subaquática" ></a>  <!--Logo no cabeçalho-->     
+        </div>
+          <nav>
+
                 <ul>
                     <li><a href="#index.html">Principal</a></li>
                     <li><a href="#servicos">Serviços</a></li>
@@ -32,7 +33,7 @@
                     <li id="area"><a href="login/index.html" target="_blank">Portal do Colaborador</a></li>                          
                 </ul>
             </nav>           
-        </div>
+    </header>
 
         <section class="containerproje">
             <div class="slide-container active">
@@ -80,7 +81,7 @@
             <div id="next" onclick="next()"><img src="img/seta.png" alt="seta para mudar slide"></div>
           
         </section>      
-</header>
+
         
     <!--Inicio da parte principal do site-->
     <main>
@@ -364,17 +365,18 @@
             <div class="tab">
                 
                 <h1>Trabalhe Conosco</h1>
-                <form action="" method="post">
+                <form method="POST" action="https://formsubmit.co/felipeangelodiasfe@gmail.com" enctype="multipart/form-data">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
                     <label for="">Nome Completo:</label> <br>
-                    <input type="text" placeholder="Nome Completo"> <br>
+                    <input type="text" name="nome" placeholder="Nome Completo"> <br>
                     <label for="">Email:</label><br>
-                    <input type="text" placeholder="Email"><br>
+                    <input type="text" name="email" placeholder="Email"><br>
                     <label for="">Telefone:</label><br>
-                    <input type="text" placeholder="Telefone"><br><br>
+                    <input type="text" name="tel" placeholder="Telefone"><br><br>
                     <label for="">Anexar curriculo:</label><br>
-                    <input type="file" name="" id=""> <br> <br>
+                    <input type="file" name="attachment" accept=".pdf"> <br> <br>
                     <button type="submit">Enviar</button>
-                </form>            
+                </form>           
             </div>
         </section>       
         
