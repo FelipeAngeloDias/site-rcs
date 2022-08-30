@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 0 20px;
+}
+.min{
+    height: 110px;
+}
+.logo img{
+    width: 280px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: #7f7f7f;
+    margin: auto 10px;
+    font-family: 'Poppins', sans-serif;
+}
+ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
