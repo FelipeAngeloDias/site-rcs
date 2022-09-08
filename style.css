@@ -120,20 +120,13 @@ ul li a:hover{
     
 }
 .containerproje .slide-container:nth-child(1) .slide{
-    background-image: url(img/princ.png);
+    background-image: url(img/trabalho/obra.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5)
 }
 .containerproje .slide-container:nth-child(2) .slide{
-    background-image: url(img/trabalho/insens.bmp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: auto;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5)
-}
-.containerproje .slide-container:nth-child(3) .slide{
     background-image: url(img/trabalho/salvatagem-princ.jpg);
     background-size: cover;
     width: auto;
@@ -141,7 +134,7 @@ ul li a:hover{
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5)
     
 }
-.containerproje .slide-container:nth-child(4) .slide{
+.containerproje .slide-container:nth-child(3) .slide{
     background-image: url(img/trabalho/Atendnav.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -410,7 +403,8 @@ section .clientes{
     align-items: center;
 }
 .somos img{
-    width: 450px;
+    height: 500px;
+    width: 550px;
     text-align:justify;
     border-radius: 5px 35px;
     margin: 10px 30px;
