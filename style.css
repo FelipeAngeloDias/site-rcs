@@ -135,7 +135,7 @@ ul li a:hover{
     
 }
 .containerproje .slide-container:nth-child(3) .slide{
-    background-image: url(img/trabalho/Atendnav.jpg);
+    background-image: url(img/trabalho/Atendnav2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
@@ -463,7 +463,7 @@ section .trab-img img{
 .estilizacao{
     display: flex;
     justify-content: center;
-    gap: 105px;
+    gap: 25px;
     margin-top: 25px;
 }
 .estilizacao li:hover{
@@ -478,7 +478,7 @@ section .trab-img img{
     font-family: 'Poppins', sans-serif;
 }
 .estilizacao li img{
-    width: 320px;
+    width: 400px;
     border-radius: 15px;
     box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3);
 }
