@@ -487,7 +487,6 @@ section .trab-img img{
     height: 50px;
     font-size: 17px;
     font-weight: 100;
-    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     border-radius: 10px;
     border: none;
@@ -501,6 +500,9 @@ section .trab-img img{
 .btn-sm button:hover{
     background-color: rgba(128, 128, 128, 0.825);
     cursor: pointer; 
+}
+.btn-sm a{
+    color: #ffffff;
 }
 .trabalheconosco{
    background-image: url(img/email.jpg);
